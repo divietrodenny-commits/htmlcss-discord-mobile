@@ -71,3 +71,45 @@ button {
   text-decoration: none;
   color: white
 }
+/* Banners */
+.banners {
+  padding: 2rem;
+}
+
+.banner {
+  position: relative;
+  border-radius: 2rem;
+  background-color: #5d64d1;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "sigmar", sans-serif;
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 4rem 2rem 0;
+}
+
+p {
+  color: white;
+  padding: 2rem 2.5rem;
+}
+
+.banner_img {
+  border-radius: 2rem;
+  padding: 2rem 2.5rem;
+  border-radius: 4rem;
+  
+}
+
+.discord_cube {
+  max-width: 20%;
+ position: absolute;
+ top: -3rem;
+ left: 4rem;
+ 
+}
