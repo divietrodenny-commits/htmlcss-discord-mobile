@@ -27,6 +27,10 @@ img {
   display: block;
 }
 
+video {
+  max-width: 100%;
+}
+
 main {
   padding: 4rem 2rem;
 }
@@ -35,6 +39,7 @@ main {
   text-align: center;
   padding: 0 1rem;
   color: white;
+
 }
 
 h1 {
@@ -71,9 +76,12 @@ button {
   text-decoration: none;
   color: white
 }
+
 /* Banners */
 .banners {
   padding: 2rem;
+  margin: 5rem;
+
 }
 
 .banner {
@@ -103,13 +111,18 @@ p {
   border-radius: 2rem;
   padding: 2rem 2.5rem;
   border-radius: 4rem;
-  
+
 }
 
 .discord_cube {
   max-width: 20%;
- position: absolute;
- top: -3rem;
- left: 4rem;
- 
+  position: absolute;
+  top: -3rem;
+  left: 4rem;
+
+}
+
+footer {
+  padding: 3rem;
+  margin-top: -8rem;
 }
