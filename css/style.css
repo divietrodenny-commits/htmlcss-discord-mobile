@@ -1,28 +1,73 @@
+/*common*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sigmar&display=swap');
+
+
+
 body {
- width: 512px;
- font-family: 'dm-sans', sans-serif;
-}
-header {
-    padding: auto;
-  margin-top: 24px;
+  width: 512px;
+  font-family: 'dm-sans', sans-serif;
+  background-color: #191d7b;
 }
 
-#container {
-  width: 512px;
-  height: 100vh;
-  background-color: #36393f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+  padding: auto;
+
 }
-#site_main {
-    border-radius: 8px ;
-    padding: auto;
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  padding: 4rem 2rem;
+}
+
+.app {
   text-align: center;
+  padding: 0 1rem;
   color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "sigmar", sans-serif;
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 1rem 0;
+
+}
+
+button {
+  display: block;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+
+.button_browser {
+  background-color: #5865f2;
+  display: block;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: white
 }
